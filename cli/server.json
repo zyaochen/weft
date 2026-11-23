@@ -3,7 +3,7 @@
   "name": "io.github.zyaochen/weft",
   "title": "Weft",
   "description": "Search local AI conversations by file or phrase and recall source turns. Four read-only tools.",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "repository": {
     "url": "https://github.com/zyaochen/weft",
     "source": "github",
@@ -15,7 +15,7 @@
       "registryType": "npm",
       "registryBaseUrl": "https://registry.npmjs.org",
       "identifier": "weft-canvas",
-      "version": "0.5.1",
+      "version": "0.5.2",
       "runtimeHint": "npx",
       "transport": {
         "type": "stdio"

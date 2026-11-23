@@ -49,6 +49,18 @@ carry separate version numbers; CLI releases are tagged `cli-v<version>`.
   @xmldom/xmldom, brace-expansion). Six moderate ones remain in
   electron-builder's own dependencies; npm offers only a downgrade to 25.
 
+## [cli-v0.5.2] - 2026-11-23
+
+### Changed
+
+- The GitHub account was renamed from `chenziyaos` to `zyaochen`. The MCP
+  Registry name is now `io.github.zyaochen/weft` (it was
+  `io.github.chenziyaos/weft`), and the package's repository, homepage and
+  issue links point at `github.com/zyaochen/weft` and
+  `zyaochen.github.io/weft/`.
+- The bundled app and server are built from the current main branch, so they
+  include the changes listed under [Unreleased] above.
+
 ## [v0.5.18] - 2026-11-20
 
 The first desktop release that can update itself: from this version on, the
