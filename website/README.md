@@ -16,12 +16,12 @@ It keeps Weft's own product boundary and visual semantics:
 It is published with GitHub Pages at:
 
 ```text
-https://chenziyaos.github.io/weft/
-https://chenziyaos.github.io/weft/zh.html
-https://chenziyaos.github.io/weft/docs/tutorials/
-https://chenziyaos.github.io/weft/docs/zh/tutorials/
-https://chenziyaos.github.io/weft/stories/context-repair/
-https://chenziyaos.github.io/weft/research/context-repair-pilot-v2/
+https://zyaochen.github.io/weft/
+https://zyaochen.github.io/weft/zh.html
+https://zyaochen.github.io/weft/docs/tutorials/
+https://zyaochen.github.io/weft/docs/zh/tutorials/
+https://zyaochen.github.io/weft/stories/context-repair/
+https://zyaochen.github.io/weft/research/context-repair-pilot-v2/
 ```
 
 The `product-story-pages.yml` workflow builds and checks `dist/pages`, then

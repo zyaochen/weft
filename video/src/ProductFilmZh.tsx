@@ -322,7 +322,7 @@ const WindowFrame: React.FC<{
             fontSize: 18,
           }}
         >
-          chenziyaos.github.io/weft/app
+          zyaochen.github.io/weft/app
         </span>
       </div>
       <OffthreadVideo
@@ -540,7 +540,7 @@ const EndVisual: React.FC = () => {
           fontSize: 25,
         }}
       >
-        github.com/chenziyaos/weft
+        github.com/zyaochen/weft
       </div>
     </div>
   );

@@ -232,7 +232,7 @@ export async function drawGedankengangPoster({ title, journey, entries, lang }: 
   ctx.textAlign = 'left'; ctx.textBaseline = 'alphabetic';
   ctx.fillStyle = '#7d6a45';
   ctx.font = `20px ${MONO}`;
-  ctx.fillText('Weft · github.com/chenziyaos/weft', PAD + 90, fy);
+  ctx.fillText('Weft · github.com/zyaochen/weft', PAD + 90, fy);
 
   return new Promise((resolve, reject) => {
     canvas.toBlob((b) => (b ? resolve(b) : reject(new Error('toBlob failed'))), 'image/png');

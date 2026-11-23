@@ -179,7 +179,7 @@ export const SceneShell: React.FC<{
               marginRight: 44, // optically re-center against the traffic lights
             }}
           >
-            chenziyaos.github.io/weft/app
+            zyaochen.github.io/weft/app
           </div>
         </div>
         <OffthreadVideo

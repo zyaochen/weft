@@ -29,7 +29,7 @@ weft setup mcp
 
 This registers Weft in the current project's `.mcp.json` for Claude Code and in `~/.codex/config.toml` for Codex. Queries remain scoped to the current workspace. The MCP server can search and recall; it cannot edit a canvas or a source session.
 
-For other clients that support local stdio servers, register `weft mcp` as the startup command. Node.js 20 or newer and supported session logs must be available on the machine running the server. A complete manual configuration example is in [cli/README.md](https://github.com/chenziyaos/weft/blob/main/cli/README.md#mcp-clients-and-directories).
+For other clients that support local stdio servers, register `weft mcp` as the startup command. Node.js 20 or newer and supported session logs must be available on the machine running the server. A complete manual configuration example is in [cli/README.md](https://github.com/zyaochen/weft/blob/main/cli/README.md#mcp-clients-and-directories).
 
 The server writes derived indexes under `~/.weft` and returns retrieved history to the calling agent. That agent may send it to its configured model provider. Source logs remain unchanged.
 

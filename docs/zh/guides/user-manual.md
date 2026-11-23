@@ -40,7 +40,7 @@ weft serve
 
 浏览器会自动打开 `http://localhost:3001`，在首页输入框里写下问题，按回车就行。终端窗口保持开着，按 Ctrl+C 结束。画布保存在这个地址对应的浏览器存储里，所以每次都用同一个地址打开。
 
-也可以从源码运行：clone https://github.com/chenziyaos/weft，在仓库根目录 `npm install`，再分别运行 `npm run server` 和 `npm run dev`，打开 `http://localhost:5173`。
+也可以从源码运行：clone https://github.com/zyaochen/weft，在仓库根目录 `npm install`，再分别运行 `npm run server` 和 `npm run dev`，打开 `http://localhost:5173`。
 
 模型可以用自己的：任意 OpenAI 兼容接口（自建网关、本地模型）或一家服务商的 key 都行，在模型设置里填上即可（见[第 1 节](#_1-连上模型)）。
 
@@ -314,7 +314,7 @@ node scripts/e2e-user-journey.mjs evidence/weft-user-journey-$(date -u +%Y%m%dT%
 | 终端 Agent 直接改画布（Claude Code、Codex 各一次，第 15 节） | 各自读取 Skill、开分支、接引用、作答并写回，回执存进画布；45 秒 / 93 秒 | `scripts/verify-real-host.mjs` |
 | 两个终端 Agent 同时改同一张画布 | 都完成任务；Codex 遇到一次冲突后重新读取完成；各自的输入里没有对方分支的内容；96 秒 / 130 秒 | `scripts/verify-multi-agent.mjs` |
 
-第 6、7、10、11、12、14 节的验收用的是测试用的替身模型和合成会话，验证的是界面行为和实际发出的请求，不是回答质量。全部验收记录见仓库根目录的 [VERIFICATION_ZH.md](https://github.com/chenziyaos/weft/blob/main/VERIFICATION_ZH.md)。
+第 6、7、10、11、12、14 节的验收用的是测试用的替身模型和合成会话，验证的是界面行为和实际发出的请求，不是回答质量。全部验收记录见仓库根目录的 [VERIFICATION_ZH.md](https://github.com/zyaochen/weft/blob/main/VERIFICATION_ZH.md)。
 
 ### 没有覆盖的范围
 

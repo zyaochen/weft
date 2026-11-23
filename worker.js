@@ -9,7 +9,7 @@ export default {
     const url = new URL(request.url);
     if (url.pathname === '/story' || url.pathname.startsWith('/story/')) {
       const suffix = url.pathname.replace(/^\/story\/?/, '');
-      const target = new URL(`https://chenziyaos.github.io/weft/${suffix}`);
+      const target = new URL(`https://zyaochen.github.io/weft/${suffix}`);
       target.search = url.search;
       return Response.redirect(target.toString(), 301);
     }

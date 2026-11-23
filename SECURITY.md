@@ -9,7 +9,7 @@ release branches.
 
 Please do not open a public issue for a security problem. Report it privately
 through GitHub: **Security → Report a vulnerability** on
-<https://github.com/chenziyaos/weft/security/advisories/new>.
+<https://github.com/zyaochen/weft/security/advisories/new>.
 
 Include what you found, how to reproduce it, and what an attacker could do with
 it. You should get a first reply within 7 days. This is a personal project, so

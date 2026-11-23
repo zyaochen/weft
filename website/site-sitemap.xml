@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://chenziyaos.github.io/weft/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://chenziyaos.github.io/weft/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://chenziyaos.github.io/weft/zh.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://chenziyaos.github.io/weft/" />
+    <loc>https://zyaochen.github.io/weft/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zyaochen.github.io/weft/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://zyaochen.github.io/weft/zh.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zyaochen.github.io/weft/" />
   </url>
   <url>
-    <loc>https://chenziyaos.github.io/weft/zh.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://chenziyaos.github.io/weft/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://chenziyaos.github.io/weft/zh.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://chenziyaos.github.io/weft/" />
+    <loc>https://zyaochen.github.io/weft/zh.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zyaochen.github.io/weft/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://zyaochen.github.io/weft/zh.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zyaochen.github.io/weft/" />
   </url>
   <url>
-    <loc>https://chenziyaos.github.io/weft/stories/context-repair/</loc>
+    <loc>https://zyaochen.github.io/weft/stories/context-repair/</loc>
   </url>
   <url>
-    <loc>https://chenziyaos.github.io/weft/research/context-repair-pilot-v2/</loc>
+    <loc>https://zyaochen.github.io/weft/research/context-repair-pilot-v2/</loc>
   </url>
 </urlset>

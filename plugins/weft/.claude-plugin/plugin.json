@@ -4,11 +4,11 @@
   "version": "0.5.1",
   "description": "Open the current session on the Weft canvas (/weft), query local session history (why / find / recall), and let the agent branch, cite and write back on a live canvas (weft-canvas skill). MCP: the read-only why layer.",
   "author": {
-    "name": "chenziyaos",
-    "url": "https://github.com/chenziyaos"
+    "name": "zyaochen",
+    "url": "https://github.com/zyaochen"
   },
-  "homepage": "https://chenziyaos.github.io/weft/",
-  "repository": "https://github.com/chenziyaos/weft",
+  "homepage": "https://zyaochen.github.io/weft/",
+  "repository": "https://github.com/zyaochen/weft",
   "license": "MIT",
   "keywords": [
     "canvas",

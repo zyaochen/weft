@@ -1,7 +1,7 @@
 import { defineConfig, type HeadConfig } from 'vitepress';
 
 const docsBase = process.env.DOCS_BASE || '/';
-const publicDocs = 'https://chenziyaos.github.io/weft/docs/';
+const publicDocs = 'https://zyaochen.github.io/weft/docs/';
 const pageUrl = (path: string) => publicDocs + path.replace(/(^|\/)index\.md$/, '$1').replace(/\.md$/, '');
 
 const enSidebar = [
@@ -133,7 +133,7 @@ const enTheme = {
     { text: 'Features', link: '/guides/' },
     { text: 'Concepts', link: '/concepts/' },
     { text: 'Reference', link: '/reference/' },
-    { text: 'Download', link: 'https://github.com/chenziyaos/weft/releases' },
+    { text: 'Download', link: 'https://github.com/zyaochen/weft/releases' },
   ],
   sidebar: enSidebar,
   outline: { label: 'On this page', level: [2, 3] },
@@ -149,7 +149,7 @@ const zhTheme = {
     { text: '功能', link: '/zh/guides/' },
     { text: '概念', link: '/zh/concepts/' },
     { text: '参考', link: '/zh/reference/' },
-    { text: '下载', link: 'https://github.com/chenziyaos/weft/releases' },
+    { text: '下载', link: 'https://github.com/zyaochen/weft/releases' },
   ],
   sidebar: zhSidebar,
   outline: { label: '本页内容', level: [2, 3] },
@@ -254,10 +254,10 @@ export default defineConfig({
       },
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/chenziyaos/weft' },
+      { icon: 'github', link: 'https://github.com/zyaochen/weft' },
     ],
     editLink: {
-      pattern: 'https://github.com/chenziyaos/weft/edit/main/docs/:path',
+      pattern: 'https://github.com/zyaochen/weft/edit/main/docs/:path',
       text: 'Edit this page on GitHub',
     },
     footer: {

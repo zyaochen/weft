@@ -35,7 +35,7 @@ export interface WhatsNewEntry {
   items: WhatsNewItem[];
 }
 
-const DOCS = 'https://chenziyaos.github.io/weft/docs';
+const DOCS = 'https://zyaochen.github.io/weft/docs';
 
 export const WHATS_NEW: WhatsNewEntry[] = [
   {
@@ -565,7 +565,7 @@ export const WHATS_NEW: WhatsNewEntry[] = [
           zh: 'dsh plugin --profile web add dsh-weft，Harness 的网页里多一个"思维图"视图：在画布上提问、让 Harness 的 Agent 带工具作答，why 也成了它的原生工具。',
           en: 'dsh plugin --profile web add dsh-weft adds a canvas view to the Harness web UI: ask from the canvas, let its agent answer with tools, and why becomes a native tool there.',
         },
-        link: { label: { zh: '插件说明', en: 'Plugin README' }, href: 'https://github.com/chenziyaos/weft/tree/main/dsh#readme' },
+        link: { label: { zh: '插件说明', en: 'Plugin README' }, href: 'https://github.com/zyaochen/weft/tree/main/dsh#readme' },
       },
       {
         title: { zh: '文档站上线', en: 'The docs site is live' },

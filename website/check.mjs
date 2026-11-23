@@ -4,7 +4,7 @@ import { resolve } from 'node:path';
 import { parse } from 'parse5';
 
 const root = resolve('dist/pages');
-const base = 'https://chenziyaos.github.io/weft/';
+const base = 'https://zyaochen.github.io/weft/';
 const attr = (node, key) => node.attrs?.find((a) => a.name === key)?.value;
 function elements(node) {
   return [node, ...(node.childNodes || []).flatMap(elements)];

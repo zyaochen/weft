@@ -40,7 +40,7 @@ weft serve
 
 The browser opens `http://localhost:3001`. Type a question on the home page and press Enter. Keep the terminal open; Ctrl+C stops it. Canvases persist in this address's browser storage, so always use the same address.
 
-To run from source instead, clone https://github.com/chenziyaos/weft, run `npm install` in the repository root, then `npm run server` and `npm run dev`, and open `http://localhost:5173`.
+To run from source instead, clone https://github.com/zyaochen/weft, run `npm install` in the repository root, then `npm run server` and `npm run dev`, and open `http://localhost:5173`.
 
 Models: any OpenAI-compatible endpoint (your own gateway, a local model) or a provider key will do — fill it in under model settings ([§1](#1-connect-a-model)).
 
@@ -314,7 +314,7 @@ The script writes screenshots, exports, and `metrics.json` into the given direct
 | Terminal agents editing the canvas directly (one each of Claude Code and Codex, [§15](#15-let-a-terminal-agent-edit-the-canvas-directly)) | Each read the Skill, branched, wired a reference, answered, wrote back; receipt stored on canvas; 45 s / 93 s | `scripts/verify-real-host.mjs` |
 | Two terminal agents editing the same canvas simultaneously | Both finished; Codex hit one conflict, reread the canvas, completed; neither saw the other's branch in its input; 96 s / 130 s | `scripts/verify-multi-agent.mjs` |
 
-The acceptance for §6, §7, §10, §11, §12, and §14 uses stand-in models and synthetic sessions — they validate UI behavior and actual outgoing requests, not answer quality. The full record is in [VERIFICATION.md](https://github.com/chenziyaos/weft/blob/main/VERIFICATION.md) at the repository root.
+The acceptance for §6, §7, §10, §11, §12, and §14 uses stand-in models and synthetic sessions — they validate UI behavior and actual outgoing requests, not answer quality. The full record is in [VERIFICATION.md](https://github.com/zyaochen/weft/blob/main/VERIFICATION.md) at the repository root.
 
 ### What is not covered
 

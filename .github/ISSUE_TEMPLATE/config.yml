@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
   - name: Security report
-    url: https://github.com/chenziyaos/weft/security/advisories/new
+    url: https://github.com/zyaochen/weft/security/advisories/new
     about: Report a vulnerability privately; do not open a public issue.
   - name: Documentation
-    url: https://chenziyaos.github.io/weft/docs/
+    url: https://zyaochen.github.io/weft/docs/
     about: Setup, guides and reference.

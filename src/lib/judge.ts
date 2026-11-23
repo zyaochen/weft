@@ -255,7 +255,7 @@ interface Wire { url: string; headers: Record<string, string>; body: unknown; di
 function wireFor(s: JudgeSettings, state: unknown, questions: Record<string, JudgeQuestion>): Wire {
   switch (effectiveProvider(s)) {
     case 'openrouter':
-      return { url: 'https://openrouter.ai/api/v1/systemone', headers: { Authorization: `Bearer ${s.openrouterKey || storedOpenRouterKey()}`, 'HTTP-Referer': 'https://github.com/chenziyaos/weft', 'X-Title': 'Weft' }, body: { model: 'typesafe/jev-1.13', state, questions }, direct: true };
+      return { url: 'https://openrouter.ai/api/v1/systemone', headers: { Authorization: `Bearer ${s.openrouterKey || storedOpenRouterKey()}`, 'HTTP-Referer': 'https://github.com/zyaochen/weft', 'X-Title': 'Weft' }, body: { model: 'typesafe/jev-1.13', state, questions }, direct: true };
     case 'typesafe':
       return { url: 'https://api.typesafe.ai/v1/systemone', headers: { Authorization: `Bearer ${s.typesafeKey}` }, body: { model: 'jev-latest', state, questions }, direct: false };
     case 'cloudflare':

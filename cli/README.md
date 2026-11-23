@@ -71,7 +71,7 @@ The four tools search and recall history; they cannot edit a canvas, modify sour
 
 ### Container and directory checks
 
-The [Dockerfile](https://github.com/chenziyaos/weft/blob/main/cli/Dockerfile) installs the CLI as a non-root stdio server. It does not copy the repository or any session data into the image. From the repository root:
+The [Dockerfile](https://github.com/zyaochen/weft/blob/main/cli/Dockerfile) installs the CLI as a non-root stdio server. It does not copy the repository or any session data into the image. From the repository root:
 
 ```bash
 docker build -f cli/Dockerfile -t weft-mcp cli

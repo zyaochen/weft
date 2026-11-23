@@ -21,7 +21,7 @@ weft setup mcp
 
 它会为 Claude Code 写入当前项目的 `.mcp.json`，并在 `~/.codex/config.toml` 中注册 Codex MCP。查询仍以当前工作区为范围。MCP 服务只能检索与回忆，不能编辑画布或来源会话。
 
-其他支持本地 stdio 服务的客户端，可使用 `weft mcp` 启动。运行服务的机器需要 Node.js 20 或更新版本，以及受支持的本地会话日志。也可参照[手动配置示例](https://github.com/chenziyaos/weft/tree/main/cli#mcp-clients-and-directories)。
+其他支持本地 stdio 服务的客户端，可使用 `weft mcp` 启动。运行服务的机器需要 Node.js 20 或更新版本，以及受支持的本地会话日志。也可参照[手动配置示例](https://github.com/zyaochen/weft/tree/main/cli#mcp-clients-and-directories)。
 
 服务会在 `~/.weft` 中写入派生索引，并把检索到的历史返回给调用它的 Agent；该 Agent 可能将内容发送给其配置的模型服务。原始会话日志不会被修改。
 

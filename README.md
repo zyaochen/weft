@@ -9,7 +9,7 @@
 Every exchange with a model or an agent is a node on an infinite canvas; the wires between nodes are the context.<br/>
 What a node sees is exactly what flows into it along the arrows. Cut one wire, and the next answer changes.
 
-[![CI](https://github.com/chenziyaos/weft/actions/workflows/ci.yml/badge.svg)](https://github.com/chenziyaos/weft/actions/workflows/ci.yml) ![License](https://img.shields.io/badge/license-MIT-green) ![Node](https://img.shields.io/badge/node-%E2%89%A520-339933) · [中文](./README_ZH.md) · [Docs](https://chenziyaos.github.io/weft/docs/) · [User manual](docs/guides/user-manual.md)
+[![CI](https://github.com/zyaochen/weft/actions/workflows/ci.yml/badge.svg)](https://github.com/zyaochen/weft/actions/workflows/ci.yml) ![License](https://img.shields.io/badge/license-MIT-green) ![Node](https://img.shields.io/badge/node-%E2%89%A520-339933) · [中文](./README_ZH.md) · [Docs](https://zyaochen.github.io/weft/docs/) · [User manual](docs/guides/user-manual.md)
 
 </div>
 
@@ -38,7 +38,7 @@ runtime or a hosted service.
 Requires Node.js 20 or newer and git.
 
 ```bash
-git clone https://github.com/chenziyaos/weft.git
+git clone https://github.com/zyaochen/weft.git
 cd weft
 npm install
 npm run server         # model proxy: "Weft proxy (Vercel AI SDK) running on http://localhost:3001"
@@ -62,10 +62,10 @@ weft serve                               # serves the canvas on http://localhost
 **As a Claude Code or Codex plugin.** The plugin adds the session command (`/weft:weft` in Claude Code, the `weft` Skill in Codex), the `weft-canvas` Skill and the read-only MCP server, which runs from the CLI bundled in the plugin (about 0.3 MB; nothing is downloaded from npm). It does not include the canvas app; start that with `weft serve` or the desktop app. `--sparse` keeps the checkout to the plugin files instead of the whole repository.
 
 ```bash
-claude plugin marketplace add chenziyaos/weft --sparse .claude-plugin plugins
+claude plugin marketplace add zyaochen/weft --sparse .claude-plugin plugins
 claude plugin install weft@weft
 
-codex plugin marketplace add chenziyaos/weft --sparse .claude-plugin --sparse plugins
+codex plugin marketplace add zyaochen/weft --sparse .claude-plugin --sparse plugins
 codex plugin add weft@weft
 ```
 
@@ -142,7 +142,7 @@ Optional pieces:
 
 - The preview and receipts cover the input the canvas compiles, not provider-side state; with an agent runner, the agent runtime's own system prompt is not in the preview.
 - Canvases and receipts live in the browser profile you used; there is no sync or account. Back up with **Export backup (.json)**.
-- Desktop installers on [Releases](https://github.com/chenziyaos/weft/releases) are unsigned. On macOS the app is ad-hoc signed and not notarized: the first launch is blocked until you allow it under System Settings → Privacy & Security → Open Anyway, and in-app updates may fail to install, so download new versions from Releases. Windows SmartScreen asks once (More info → Run anyway).
+- Desktop installers on [Releases](https://github.com/zyaochen/weft/releases) are unsigned. On macOS the app is ad-hoc signed and not notarized: the first launch is blocked until you allow it under System Settings → Privacy & Security → Open Anyway, and in-app updates may fail to install, so download new versions from Releases. Windows SmartScreen asks once (More info → Run anyway).
 - The host handoff panel is Chinese-only; the rest of the UI is English and Chinese.
 - Session mirrors read the on-disk formats of Claude Code, Codex, DeepSeek Harness and Pi as observed; a format change in those tools can break the mirror until the reader is updated.
 - The browser acceptance scripts that need no model run on macOS by hand and nightly on Linux in CI; Windows is not covered. What was run, and what it does not establish, is in [VERIFICATION.md](VERIFICATION.md).
@@ -170,7 +170,7 @@ More in [docs/reference/troubleshooting.md](docs/reference/troubleshooting.md).
 | How Weft differs from similar tools | [COMPARISON.md](COMPARISON.md) |
 
 The docs render as a VitePress site with search: `npm run docs:dev`, or the
-copy the Pages workflow publishes at <https://chenziyaos.github.io/weft/docs/>.
+copy the Pages workflow publishes at <https://zyaochen.github.io/weft/docs/>.
 
 ## Develop
 

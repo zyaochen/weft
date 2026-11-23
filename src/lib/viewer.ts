@@ -63,7 +63,7 @@ export async function buildViewerLink(nodes: ThoughtNode[], edges: ThoughtEdge[]
   // Always the PUBLIC viewer origin: a link minted on the desktop app or a
   // dev server would otherwise point at localhost and open for nobody. The
   // payload is self-contained, so any deployment of the app can render it.
-  return `https://chenziyaos.github.io/weft/app/#view=${b64url.encode(packed)}`;
+  return `https://zyaochen.github.io/weft/app/#view=${b64url.encode(packed)}`;
 }
 
 export async function decodeViewerHash(hash: string): Promise<ViewerPayload> {
