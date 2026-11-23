@@ -3892,7 +3892,7 @@ var init_lib = __esm({
     DOSSIERS_LOCK = path.join(HOME, "dossiers.lock");
     DOSSIERS_LOCK_WAIT_MS = 5e3;
     dossierWrites = Promise.resolve();
-    CLI_VERSION = "0.5.1";
+    CLI_VERSION = "0.5.2";
     MCP_TOOLS = [
       { name: "why_check", description: "Cheap first question before editing a file: does this artifact have any history in local agent sessions? One line; history true/false.", inputSchema: { type: "object", properties: { path: { type: "string", description: "file path (absolute or relative to cwd), URL, or arxiv:<id>" } }, required: ["path"] } },
       { name: "why_file", description: "The turns across local Claude Code, Codex, DeepSeek Harness, Pi and Weft sessions that touched a file, URL or paper: when, what changed (\u0394, observed), what was asked, what the answer said about it (\u2248, a candidate explanation, not a verified reason). Each hit carries a deep link.", inputSchema: { type: "object", properties: { path: { type: "string" }, include_read: { type: "boolean", description: "also list turns that only read it (default false)" }, limit: { type: "number", description: "max hits (default 10)" } }, required: ["path"] } },

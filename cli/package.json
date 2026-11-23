@@ -1,6 +1,6 @@
 {
   "name": "weft-canvas",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "mcpName": "io.github.zyaochen/weft",
   "description": "Weft for local use: the canvas app (weft serve), the agent Skill that edits it, and the why layer over local Claude Code, Codex and DeepSeek Harness sessions. Source files are never written.",
   "license": "MIT",

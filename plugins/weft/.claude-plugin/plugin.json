@@ -1,7 +1,7 @@
 {
   "name": "weft",
   "displayName": "Weft",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "Open the current session on the Weft canvas (/weft), query local session history (why / find / recall), and let the agent branch, cite and write back on a live canvas (weft-canvas skill). MCP: the read-only why layer.",
   "author": {
     "name": "zyaochen",
