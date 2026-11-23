@@ -6,7 +6,7 @@ Weft for DeepSeek Harness: open DSH sessions (live or on disk) as
 editable thought graphs on Weft's infinite canvas — from inside the
 harness UI.
 
-Source, releases and issues live in the **[Weft repository](https://github.com/chenziyaos/weft)**.
+Source, releases and issues live in the **[Weft repository](https://github.com/zyaochen/weft)**.
 
 This is a [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)
 plugin (a Cordis plugin distributed as an npm package), built on the same shell

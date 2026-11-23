@@ -19,7 +19,7 @@ const attr = (node, name) => node.attrs?.find((a) => a.name === name)?.value;
 async function latestRelease() {
   if (process.env.WEFT_RELEASE) return process.env.WEFT_RELEASE.trim();
   try {
-    const res = await fetch('https://api.github.com/repos/chenziyaos/weft/releases?per_page=30', { signal: AbortSignal.timeout(5000) });
+    const res = await fetch('https://api.github.com/repos/zyaochen/weft/releases?per_page=30', { signal: AbortSignal.timeout(5000) });
     if (res.ok) return (await res.json()).find((r) => /^v\d/.test(r.tag_name))?.tag_name ?? null;
   } catch { /* offline build keeps the fallback */ }
   return null;
@@ -62,12 +62,12 @@ function localize(node) {
     if (attr(node, 'data-zh-href')) setAttr(node, 'href', attr(node, 'data-zh-href'));
     if (node.tagName === 'html') setAttr(node, 'lang', 'zh-CN');
     if (node.tagName === 'title') setText(node, title);
-    if (node.tagName === 'link' && attr(node, 'rel') === 'canonical') setAttr(node, 'href', 'https://chenziyaos.github.io/weft/zh.html');
+    if (node.tagName === 'link' && attr(node, 'rel') === 'canonical') setAttr(node, 'href', 'https://zyaochen.github.io/weft/zh.html');
     if (node.tagName === 'meta') {
       const key = attr(node, 'name') || attr(node, 'property');
       if (key === 'description' || key === 'og:description') setAttr(node, 'content', description);
       if (key === 'og:title') setAttr(node, 'content', title);
-      if (key === 'og:url') setAttr(node, 'content', 'https://chenziyaos.github.io/weft/zh.html');
+      if (key === 'og:url') setAttr(node, 'content', 'https://zyaochen.github.io/weft/zh.html');
       if (key === 'og:image' || key === 'twitter:image') setAttr(node, 'content', attr(node, 'content').replace('-en-', '-zh-'));
     }
     if (attr(node, 'id') === 'language-toggle') {
@@ -79,7 +79,7 @@ function localize(node) {
     if (node.tagName === 'script' && attr(node, 'type') === 'application/ld+json') {
       const data = JSON.parse(node.childNodes[0].value);
       data.description = description;
-      data.url = 'https://chenziyaos.github.io/weft/zh.html';
+      data.url = 'https://zyaochen.github.io/weft/zh.html';
       data.inLanguage = 'zh-CN';
       setText(node, JSON.stringify(data));
     }

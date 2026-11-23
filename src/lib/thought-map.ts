@@ -106,7 +106,7 @@ export function handPositions(g: MapStructure): Record<string, [number, number]>
   return Object.fromEntries(g.nodes.map((n) => [n.id, [n.x, n.y] as [number, number]]));
 }
 
-export const TMAP_SITE_URL = 'https://chenziyaos.github.io/weft/';
+export const TMAP_SITE_URL = 'https://zyaochen.github.io/weft/';
 
 /** The mark a stat item wears on the sheet: ink dot for steps, hollow
  *  diamond for materials, red dot for the judgement family. The stats line

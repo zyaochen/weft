@@ -9,7 +9,7 @@
 和模型、和 Agent 的每一轮问答，是无限画布上的一个节点；节点之间的连线，就是上下文。<br/>
 节点能看到的，恰好是沿箭头流进来的内容。剪掉一条线，下一次回答就变了。
 
-[![CI](https://github.com/chenziyaos/weft/actions/workflows/ci.yml/badge.svg)](https://github.com/chenziyaos/weft/actions/workflows/ci.yml) ![License](https://img.shields.io/badge/license-MIT-green) ![Node](https://img.shields.io/badge/node-%E2%89%A520-339933) · [English](./README.md) · [文档站](https://chenziyaos.github.io/weft/docs/zh/) · [用户手册](docs/zh/guides/user-manual.md)
+[![CI](https://github.com/zyaochen/weft/actions/workflows/ci.yml/badge.svg)](https://github.com/zyaochen/weft/actions/workflows/ci.yml) ![License](https://img.shields.io/badge/license-MIT-green) ![Node](https://img.shields.io/badge/node-%E2%89%A520-339933) · [English](./README.md) · [文档站](https://zyaochen.github.io/weft/docs/zh/) · [用户手册](docs/zh/guides/user-manual.md)
 
 </div>
 
@@ -32,7 +32,7 @@ Weft 面向跑长会话的人：开发、研究、排查问题，一聊几十轮
 需要 Node.js 20 或更新版本和 git。
 
 ```bash
-git clone https://github.com/chenziyaos/weft.git
+git clone https://github.com/zyaochen/weft.git
 cd weft
 npm install
 npm run server         # 模型代理：打印 "Weft proxy (Vercel AI SDK) running on http://localhost:3001"
@@ -53,10 +53,10 @@ weft serve                               # 在 http://localhost:3001 提供画�
 **作为 Claude Code 或 Codex 插件安装。** 插件包含会话命令（Claude Code 里是 `/weft:weft`，Codex 里是 `weft` Skill）、`weft-canvas` Skill 和只读 MCP server（直接运行插件里自带的 CLI，约 0.3 MB，不从 npm 下载）。插件不含画布应用，画布仍用 `weft serve` 或桌面版打开。`--sparse` 只检出插件相关的文件，不拉整个仓库。
 
 ```bash
-claude plugin marketplace add chenziyaos/weft --sparse .claude-plugin plugins
+claude plugin marketplace add zyaochen/weft --sparse .claude-plugin plugins
 claude plugin install weft@weft
 
-codex plugin marketplace add chenziyaos/weft --sparse .claude-plugin --sparse plugins
+codex plugin marketplace add zyaochen/weft --sparse .claude-plugin --sparse plugins
 codex plugin add weft@weft
 ```
 
@@ -123,7 +123,7 @@ codex plugin add weft@weft
 
 - 预览和回执覆盖的是画布编译出的输入，不含服务商侧状态；用 Agent 运行时，Agent 运行时自己的系统提示词不在预览里。
 - 画布和回执存在你使用的那个浏览器配置里，没有同步也没有账号。用**导出备份（.json）**做备份。
-- [Releases](https://github.com/chenziyaos/weft/releases) 上的桌面安装包未签名。macOS 版只有 ad-hoc 签名、没有公证：第一次打开会被拦下，要到「系统设置 → 隐私与安全性 → 仍要打开」放行；应用内更新可能装不上，新版本请从 Releases 下载。Windows 的 SmartScreen 会提示一次（更多信息 → 仍要运行）。
+- [Releases](https://github.com/zyaochen/weft/releases) 上的桌面安装包未签名。macOS 版只有 ad-hoc 签名、没有公证：第一次打开会被拦下，要到「系统设置 → 隐私与安全性 → 仍要打开」放行；应用内更新可能装不上，新版本请从 Releases 下载。Windows 的 SmartScreen 会提示一次（更多信息 → 仍要运行）。
 - 宿主交接面板目前只有中文；界面其余部分中英双语。
 - 会话镜像按观察到的磁盘格式读取 Claude Code、Codex、DeepSeek Harness 和 Pi；这些工具改格式后，镜像可能失效，直到读取器跟上。
 - 不需要模型的浏览器验收脚本在 macOS 上手动跑，并在 CI 里每晚在 Linux 上跑；Windows 没有覆盖。跑了什么、不能说明什么，见 [VERIFICATION_ZH.md](VERIFICATION_ZH.md)。
@@ -150,7 +150,7 @@ codex plugin add weft@weft
 | 设计与验收 | [ARCHITECTURE_ZH.md](ARCHITECTURE_ZH.md) · [VERIFICATION_ZH.md](VERIFICATION_ZH.md) · [DEPLOYING.md](DEPLOYING.md) |
 | 和同类工具的区别 | [COMPARISON_ZH.md](COMPARISON_ZH.md) |
 
-文档可以用 VitePress 带搜索地浏览：`npm run docs:dev`，或看 Pages 工作流发布的 <https://chenziyaos.github.io/weft/docs/zh/>。
+文档可以用 VitePress 带搜索地浏览：`npm run docs:dev`，或看 Pages 工作流发布的 <https://zyaochen.github.io/weft/docs/zh/>。
 
 ## 开发
 

@@ -7,5 +7,5 @@ not harass anyone. Maintainers may edit or remove comments, issues and pull
 requests that break these rules, and may block repeat offenders.
 
 Report a problem privately to the maintainer through the contact listed on the
-[maintainer's GitHub profile](https://github.com/chenziyaos), or through a
+[maintainer's GitHub profile](https://github.com/zyaochen), or through a
 private security advisory if the matter is sensitive.

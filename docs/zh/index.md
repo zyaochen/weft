@@ -13,7 +13,7 @@ Weft 把 LLM 对话变成一张可编辑的图。每个节点是一轮问答，�
 需要 Node.js 20 或更新版本：
 
 ```bash
-git clone https://github.com/chenziyaos/weft.git
+git clone https://github.com/zyaochen/weft.git
 cd weft
 npm install
 npm run server   # 模型代理：http://localhost:3001
@@ -76,8 +76,8 @@ weft serve                                # http://localhost:3001
 
 ### 桌面版
 
-桌面外壳（Electron）在 `desktop/` 下，可以从源码启动：`npm run desktop`。推送 `v*` 版本标签时，`desktop` GitHub Actions 工作流会为 macOS、Windows、Linux 打包并生成 Release 草稿；没有配置签名证书时产出的是未签名构建。已发布的版本见 [GitHub Releases](https://github.com/chenziyaos/weft/releases)。
+桌面外壳（Electron）在 `desktop/` 下，可以从源码启动：`npm run desktop`。推送 `v*` 版本标签时，`desktop` GitHub Actions 工作流会为 macOS、Windows、Linux 打包并生成 Release 草稿；没有配置签名证书时产出的是未签名构建。已发布的版本见 [GitHub Releases](https://github.com/zyaochen/weft/releases)。
 
 ### 只读分享页
 
-`#view=` 分享链接是纯静态页面，不经过服务端；仓库的 GitHub Pages 工作流会把网站、文档和一份静态画布发布到 `https://chenziyaos.github.io/weft/` 下。
+`#view=` 分享链接是纯静态页面，不经过服务端；仓库的 GitHub Pages 工作流会把网站、文档和一份静态画布发布到 `https://zyaochen.github.io/weft/` 下。

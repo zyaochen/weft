@@ -415,7 +415,7 @@ placement does not prove host discovery, loading, execution or isolation.
 
 ## Deployment and references
 
-**Deployment.** No public update channel is configured. `chenziyaos.github.io/weft` is
+**Deployment.** No public update channel is configured. `zyaochen.github.io/weft` is
 a reserved-domain marker, not a live website; deployers must supply their own
 URLs. The Web repository entry is enabled only with `VITE_PUBLIC_REPOSITORY_URL`,
 and desktop publishing defaults to disabled. See [DEPLOYING.md](DEPLOYING.md).

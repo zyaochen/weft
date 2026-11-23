@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://chenziyaos.github.io/weft/app/sitemap.xml
+Sitemap: https://zyaochen.github.io/weft/app/sitemap.xml

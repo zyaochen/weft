@@ -22,7 +22,7 @@ and is never stored (the proxy is a stateless Pages Function).
 
 The bilingual product story, the docs and a static copy of the app (enough to
 open `#view=` share links) are published by `.github/workflows/product-story-pages.yml`
-to GitHub Pages at `https://chenziyaos.github.io/weft/` (enable Pages with
+to GitHub Pages at `https://zyaochen.github.io/weft/` (enable Pages with
 "GitHub Actions" as the source in the repository settings). Requests to `/story/`
 on the Cloudflare deployment are permanently redirected there by `worker.js`.
 
@@ -41,7 +41,7 @@ extraction needs the local proxy's poppler).
 ## Self-hosting the full app
 
 ```bash
-git clone https://github.com/chenziyaos/weft && cd weft
+git clone https://github.com/zyaochen/weft && cd weft
 npm install
 cp .env.example .env   # add at least one LLM key
 npm run server         # proxy on :3001

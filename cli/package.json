@@ -1,7 +1,7 @@
 {
   "name": "weft-canvas",
   "version": "0.5.1",
-  "mcpName": "io.github.chenziyaos/weft",
+  "mcpName": "io.github.zyaochen/weft",
   "description": "Weft for local use: the canvas app (weft serve), the agent Skill that edits it, and the why layer over local Claude Code, Codex and DeepSeek Harness sessions. Source files are never written.",
   "license": "MIT",
   "type": "module",
@@ -32,12 +32,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chenziyaos/weft.git",
+    "url": "git+https://github.com/zyaochen/weft.git",
     "directory": "cli"
   },
-  "homepage": "https://github.com/chenziyaos/weft/tree/main/cli#readme",
+  "homepage": "https://github.com/zyaochen/weft/tree/main/cli#readme",
   "bugs": {
-    "url": "https://github.com/chenziyaos/weft/issues"
+    "url": "https://github.com/zyaochen/weft/issues"
   },
   "keywords": [
     "weft",

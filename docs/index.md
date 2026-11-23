@@ -13,7 +13,7 @@ Weft turns LLM conversations into an editable graph. Each node contains a questi
 Requires Node.js 20 or newer:
 
 ```bash
-git clone https://github.com/chenziyaos/weft.git
+git clone https://github.com/zyaochen/weft.git
 cd weft
 npm install
 npm run server   # model proxy on http://localhost:3001
@@ -61,8 +61,8 @@ The flow is: **choose a connection → authorize or enter a key → fetch models
 
 ### Desktop shell
 
-The Electron shell lives in `desktop/` and starts from source with `npm run desktop`. Pushing a `v*` tag runs the `desktop` GitHub Actions workflow, which packages macOS, Windows and Linux builds into a draft release; without signing certificates configured the builds are unsigned. Published versions, when there are any, are on [GitHub Releases](https://github.com/chenziyaos/weft/releases).
+The Electron shell lives in `desktop/` and starts from source with `npm run desktop`. Pushing a `v*` tag runs the `desktop` GitHub Actions workflow, which packages macOS, Windows and Linux builds into a draft release; without signing certificates configured the builds are unsigned. Published versions, when there are any, are on [GitHub Releases](https://github.com/zyaochen/weft/releases).
 
 ### Read-only share pages
 
-`#view=` share links are static pages with no server involved; the repository's GitHub Pages workflow publishes the website, the docs and a static copy of the canvas under `https://chenziyaos.github.io/weft/`.
+`#view=` share links are static pages with no server involved; the repository's GitHub Pages workflow publishes the website, the docs and a static copy of the canvas under `https://zyaochen.github.io/weft/`.

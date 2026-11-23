@@ -1,8 +1,8 @@
 {
   "name": "weft",
   "owner": {
-    "name": "chenziyaos",
-    "url": "https://github.com/chenziyaos"
+    "name": "zyaochen",
+    "url": "https://github.com/zyaochen"
   },
   "description": "Weft plugins for Claude Code and Codex",
   "plugins": [

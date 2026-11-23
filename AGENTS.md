@@ -1,6 +1,6 @@
 # AGENTS.md
 
-Weft：把 LLM 对话变成无限画布上可编辑的思维 DAG（节点=一轮问答，边=上下文流）。React 19 + Vite + TypeScript 前端，Express 代理后端。状态：活跃开发中的开放原型（https://github.com/chenziyaos/weft，fork 自 chenxiachan/thoughtdag）。
+Weft：把 LLM 对话变成无限画布上可编辑的思维 DAG（节点=一轮问答，边=上下文流）。React 19 + Vite + TypeScript 前端，Express 代理后端。状态：活跃开发中的开放原型（https://github.com/zyaochen/weft，fork 自 chenxiachan/thoughtdag）。
 
 ## 常用命令
 

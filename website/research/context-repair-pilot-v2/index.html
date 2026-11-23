@@ -8,17 +8,17 @@
     <meta name="robots" content="index,follow,max-image-preview:large" />
     <meta name="theme-color" content="#f8f6fb" />
     <link rel="icon" type="image/svg+xml" href="../../assets/favicon.svg" />
-    <link rel="canonical" href="https://chenziyaos.github.io/weft/research/context-repair-pilot-v2/" />
+    <link rel="canonical" href="https://zyaochen.github.io/weft/research/context-repair-pilot-v2/" />
     <link rel="stylesheet" href="../../assets/research-pages.css" />
     <meta property="og:type" content="article" />
     <meta property="og:title" content="Context Repair for LLMs: Pilot v2 — Weft" />
     <meta property="og:description" content="Nine endpoints, controlled pairs and a reasoning ablation: propagation, pruning, and dependency-ordered recomputation in editable LLM context graphs." />
-    <meta property="og:url" content="https://chenziyaos.github.io/weft/research/context-repair-pilot-v2/" />
-    <meta property="og:image" content="https://chenziyaos.github.io/weft/assets/context-repair-strategies.png" />
+    <meta property="og:url" content="https://zyaochen.github.io/weft/research/context-repair-pilot-v2/" />
+    <meta property="og:image" content="https://zyaochen.github.io/weft/assets/context-repair-strategies.png" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Context Repair for LLMs: Pilot v2" />
     <meta name="twitter:description" content="Propagation, pruning, and dependency-ordered recomputation." />
-    <meta name="twitter:image" content="https://chenziyaos.github.io/weft/assets/context-repair-strategies.png" />
+    <meta name="twitter:image" content="https://zyaochen.github.io/weft/assets/context-repair-strategies.png" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -29,8 +29,8 @@
         "dateModified": "2026-08-19",
         "author": { "@type": "Person", "name": "Xia Chen" },
         "publisher": { "@type": "Organization", "name": "Weft" },
-        "mainEntityOfPage": "https://chenziyaos.github.io/weft/research/context-repair-pilot-v2/",
-        "image": "https://chenziyaos.github.io/weft/assets/context-repair-strategies.png"
+        "mainEntityOfPage": "https://zyaochen.github.io/weft/research/context-repair-pilot-v2/",
+        "image": "https://zyaochen.github.io/weft/assets/context-repair-strategies.png"
       }
     </script>
   </head>
@@ -42,8 +42,8 @@
       </a>
       <div class="nav-links">
         <a class="nav-link" href="../../stories/context-repair/">Case study</a>
-        <a class="nav-link" href="https://github.com/chenziyaos/weft/tree/main/benchmark" target="_blank" rel="noreferrer">Data &amp; code ↗</a>
-        <a class="nav-link primary" href="https://github.com/chenziyaos/weft" target="_blank" rel="noreferrer">GitHub ↗</a>
+        <a class="nav-link" href="https://github.com/zyaochen/weft/tree/main/benchmark" target="_blank" rel="noreferrer">Data &amp; code ↗</a>
+        <a class="nav-link primary" href="https://github.com/zyaochen/weft" target="_blank" rel="noreferrer">GitHub ↗</a>
       </div>
     </nav>
 
@@ -260,10 +260,10 @@
           <h2>Reproduce and inspect</h2>
           <p>The benchmark stores graph cases, exact serialized requests, responses, usage, declarative scores, and importable Weft canvases.</p>
           <ul>
-            <li><a class="text-link" href="https://github.com/chenziyaos/weft/blob/main/benchmark/cases/repair/pilot-depot-crates-k3.case.json" target="_blank" rel="noreferrer">Flagship case specification ↗</a></li>
-            <li><a class="text-link" href="https://github.com/chenziyaos/weft/blob/main/benchmark/canvases/results/rp-pilot-depot-crates-k3.story.weft.json" target="_blank" rel="noreferrer">Importable story canvas ↗</a></li>
-            <li><a class="text-link" href="https://github.com/chenziyaos/weft/blob/main/benchmark/STATUS.md" target="_blank" rel="noreferrer">Pilot status and aggregate results ↗</a></li>
-            <li><a class="text-link" href="https://github.com/chenziyaos/weft/blob/main/benchmark/DESIGN.md" target="_blank" rel="noreferrer">Benchmark design ↗</a></li>
+            <li><a class="text-link" href="https://github.com/zyaochen/weft/blob/main/benchmark/cases/repair/pilot-depot-crates-k3.case.json" target="_blank" rel="noreferrer">Flagship case specification ↗</a></li>
+            <li><a class="text-link" href="https://github.com/zyaochen/weft/blob/main/benchmark/canvases/results/rp-pilot-depot-crates-k3.story.weft.json" target="_blank" rel="noreferrer">Importable story canvas ↗</a></li>
+            <li><a class="text-link" href="https://github.com/zyaochen/weft/blob/main/benchmark/STATUS.md" target="_blank" rel="noreferrer">Pilot status and aggregate results ↗</a></li>
+            <li><a class="text-link" href="https://github.com/zyaochen/weft/blob/main/benchmark/DESIGN.md" target="_blank" rel="noreferrer">Benchmark design ↗</a></li>
           </ul>
           <p>Weft is the reference implementation used to visualize and reproduce the intervention. It is not the conclusion of the experiment.</p>
         </section>

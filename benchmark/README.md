@@ -46,7 +46,7 @@ Requires the repo root's `node_modules` (the compiler is the product's own `buil
 
 ## Contribute
 
-- Suggest the next model via [GitHub issues](https://github.com/chenziyaos/weft/issues/new) if an endpoint would add a useful comparison to the panel.
+- Suggest the next model via [GitHub issues](https://github.com/zyaochen/weft/issues/new) if an endpoint would add a useful comparison to the panel.
 - Contribute an endpoint result or contamination case to start a provenance and validation review.
 
 Do not include API keys, private endpoint details, private conversation data, or other secrets. Accepted results and cases must pass the benchmark's existing schema, provenance, compilation, equivalence, and scoring checks before they enter the public dataset.

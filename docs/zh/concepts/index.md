@@ -40,4 +40,4 @@ Weft 可以检查并修改**模型收到的内容**，但不能证明**模型内
 
 “连线会改变模型收到的内容”不仅是一条界面规则，也可以通过控制实验检验。Weft 的**上下文干预基准**先让错误信息沿多轮对话传播，再比较只删除错误源头、删除受污染子图和按依赖重算等处理方式。最终问题和判分规则保持不变，变化的是进入请求的上下文状态。
 
-[Pilot v2 报告](https://chenziyaos.github.io/weft/research/context-repair-pilot-v2/)与[交互演示](https://chenziyaos.github.io/weft/stories/context-repair/)由 Pages 工作流从 `website/` 构建。可复现的 benchmark、运行记录与评分流程见仓库 [`benchmark/`](https://github.com/chenziyaos/weft/tree/main/benchmark) 目录。
+[Pilot v2 报告](https://zyaochen.github.io/weft/research/context-repair-pilot-v2/)与[交互演示](https://zyaochen.github.io/weft/stories/context-repair/)由 Pages 工作流从 `website/` 构建。可复现的 benchmark、运行记录与评分流程见仓库 [`benchmark/`](https://github.com/zyaochen/weft/tree/main/benchmark) 目录。

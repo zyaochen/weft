@@ -5,11 +5,11 @@
   "description": "Weft — an infinite graph canvas where every step's input is explicit, versioned, and written back from a host agent.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chenziyaos/weft.git"
+    "url": "git+https://github.com/zyaochen/weft.git"
   },
-  "homepage": "https://chenziyaos.github.io/weft/",
+  "homepage": "https://zyaochen.github.io/weft/",
   "bugs": {
-    "url": "https://github.com/chenziyaos/weft/issues"
+    "url": "https://github.com/zyaochen/weft/issues"
   },
   "engines": {
     "node": ">=20"

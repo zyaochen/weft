@@ -186,7 +186,7 @@ const EndBeat: React.FC<{ lang: Lang }> = ({ lang }) => {
             ...rise(18),
           }}
         >
-          github.com/chenziyaos/weft
+          github.com/zyaochen/weft
         </div>
       </AbsoluteFill>
     </BeatWrap>

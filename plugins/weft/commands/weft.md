@@ -90,4 +90,4 @@ weft status                      # 索引里有什么、多少是确定证据
    srv.serve_forever()
    ```
 
-   ③ 依次探测 `curl -s -o /dev/null -w "%{http_code}" http://localhost:3001/`（`weft serve`）和 `http://localhost:5173/`（开发服务器）：第一个返回 200 的 → `open "http://localhost:<端口>/#import-url=http://127.0.0.1:38017/session.jsonl"`；都不在跑 → 给用户三选一：`weft serve` 后重试 / `open "https://chenziyaos.github.io/weft/app/#import-url=http://127.0.0.1:38017/session.jsonl"`（数据不出本机，桥两分钟有效）/ 把桌面快照手动拖进画布切换器导入。收尾告知快照路径与打开的地址。
+   ③ 依次探测 `curl -s -o /dev/null -w "%{http_code}" http://localhost:3001/`（`weft serve`）和 `http://localhost:5173/`（开发服务器）：第一个返回 200 的 → `open "http://localhost:<端口>/#import-url=http://127.0.0.1:38017/session.jsonl"`；都不在跑 → 给用户三选一：`weft serve` 后重试 / `open "https://zyaochen.github.io/weft/app/#import-url=http://127.0.0.1:38017/session.jsonl"`（数据不出本机，桥两分钟有效）/ 把桌面快照手动拖进画布切换器导入。收尾告知快照路径与打开的地址。

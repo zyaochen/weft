@@ -19,8 +19,8 @@ const check = process.argv.includes('--check');
 const cli = JSON.parse(readFileSync(path.join(root, 'cli/package.json'), 'utf8'));
 const version = cli.version;
 
-const author = { name: 'chenziyaos', url: 'https://github.com/chenziyaos' };
-const repository = 'https://github.com/chenziyaos/weft';
+const author = { name: 'zyaochen', url: 'https://github.com/zyaochen' };
+const repository = 'https://github.com/zyaochen/weft';
 const description = 'Open the current session on the Weft canvas (/weft), query local session history (why / find / recall), and let the agent branch, cite and write back on a live canvas (weft-canvas skill). MCP: the read-only why layer.';
 const keywords = ['canvas', 'context-engineering', 'session-history', 'mcp'];
 const json = (value) => `${JSON.stringify(value, null, 2)}\n`;
@@ -43,15 +43,15 @@ copy('protocol/adapters/codex/skills/weft/SKILL.md', 'codex-skills/weft/SKILL.md
 copy('cli/dist/weft.mjs', 'server/weft.mjs');
 files.set(`${plugin}/codex-mcp.json`, json(codexMcp));
 files.set(`${plugin}/.claude-plugin/plugin.json`, json({
-  name: 'weft', displayName: 'Weft', version, description, author, homepage: 'https://chenziyaos.github.io/weft/', repository, license: 'MIT', keywords,
+  name: 'weft', displayName: 'Weft', version, description, author, homepage: 'https://zyaochen.github.io/weft/', repository, license: 'MIT', keywords,
   mcpServers: claudeMcp,
 }));
 // Codex reads skills from the listed directories only: the shared canvas skill plus $weft.
 files.set(`${plugin}/.codex-plugin/plugin.json`, json({
-  name: 'weft', version, description, author, homepage: 'https://chenziyaos.github.io/weft/', repository, license: 'MIT', keywords,
+  name: 'weft', version, description, author, homepage: 'https://zyaochen.github.io/weft/', repository, license: 'MIT', keywords,
   skills: ['./skills/', './codex-skills/'],
   mcpServers: './codex-mcp.json',
-  interface: { displayName: 'Weft', shortDescription: 'Session history and canvas handoff for coding agents', developerName: 'chenziyaos', category: 'Developer Tools', capabilities: ['Interactive', 'Read', 'Write'], websiteURL: 'https://chenziyaos.github.io/weft/' },
+  interface: { displayName: 'Weft', shortDescription: 'Session history and canvas handoff for coding agents', developerName: 'zyaochen', category: 'Developer Tools', capabilities: ['Interactive', 'Read', 'Write'], websiteURL: 'https://zyaochen.github.io/weft/' },
 }));
 files.set('.claude-plugin/marketplace.json', json({
   name: 'weft',

@@ -141,7 +141,7 @@ jobs:
           REPO: ${{ github.repository }}
 
   # Same tarball to npm through Trusted Publishing (package dsh-weft → Settings →
-  # Trusted Publisher: chenziyaos/weft, desktop-build.yml, publish allowed). Not
+  # Trusted Publisher: zyaochen/weft, desktop-build.yml, publish allowed). Not
   # a prerequisite of the release: a failure here leaves the desktop release intact.
   dsh-npm:
     if: startsWith(github.ref, 'refs/tags/')

@@ -29,4 +29,4 @@ threading.Timer(120, lambda: os._exit(0)).start()
 srv.serve_forever()
 ```
 
-③ 探测 `curl -s -o /dev/null -w "%{http_code}" http://localhost:5173`：在跑 → `open "http://localhost:5173/#import-url=http://127.0.0.1:38017/session.jsonl"`；不在跑 → 三选一告知用户：`npm run dev` 后重试 / 打开线上版 `open "https://chenziyaos.github.io/weft/app/#import-url=http://127.0.0.1:38017/session.jsonl"`（数据不出本机，桥两分钟内有效）/ 把桌面快照手动拖入画布切换器 → 导入。收尾告知快照路径与打开的地址。
+③ 探测 `curl -s -o /dev/null -w "%{http_code}" http://localhost:5173`：在跑 → `open "http://localhost:5173/#import-url=http://127.0.0.1:38017/session.jsonl"`；不在跑 → 三选一告知用户：`npm run dev` 后重试 / 打开线上版 `open "https://zyaochen.github.io/weft/app/#import-url=http://127.0.0.1:38017/session.jsonl"`（数据不出本机，桥两分钟内有效）/ 把桌面快照手动拖入画布切换器 → 导入。收尾告知快照路径与打开的地址。

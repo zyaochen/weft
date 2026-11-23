@@ -336,7 +336,7 @@ SHA-256 清单：`SKILL.md`、`scripts/weft.mjs`、`scripts/host-handoff.mjs`、
 
 ## 部署与参考
 
-**部署。** 未配置公开更新渠道。`chenziyaos.github.io/weft` 是保留域名标识，不是可用网站；
+**部署。** 未配置公开更新渠道。`zyaochen.github.io/weft` 是保留域名标识，不是可用网站；
 部署方应配置自己的域名。Web 仓库入口仅在设置 `VITE_PUBLIC_REPOSITORY_URL` 后启用，
 桌面发布配置默认为禁用。见 [DEPLOYING.md](DEPLOYING.md)。
 

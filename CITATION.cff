@@ -7,8 +7,8 @@ authors:
     given-names: "Xia"
   - family-names: "Chen"
     given-names: "Ziyao"
-repository-code: "https://github.com/chenziyaos/weft"
-url: "https://github.com/chenziyaos/weft"
+repository-code: "https://github.com/zyaochen/weft"
+url: "https://github.com/zyaochen/weft"
 license: MIT
 references:
   - type: software

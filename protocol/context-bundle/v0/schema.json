@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/chenziyaos/weft/protocol/context-bundle/v0/schema.json",
+  "$id": "https://github.com/zyaochen/weft/protocol/context-bundle/v0/schema.json",
   "title": "Weft Context Bundle v0",
   "description": "PROPOSAL — unstable until fixtures freeze it. The compiled, portable expression of what a target model should see next, with per-item provenance back to the Context Graph. Deterministic: the same graph snapshot with the same compile options produces byte-identical output (volatile fields are injected; the id derives from the content hash).",
   "type": "object",

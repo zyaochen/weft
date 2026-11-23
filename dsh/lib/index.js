@@ -640,7 +640,7 @@ async function ownRequest(target, body, stream) {
   const openrouter = isOpenRouterURL(provider.baseURL)
   const id = openrouter && body?.webSearch && !model.endsWith(':online') ? `${model}:online` : model
   const payload = { model: id, messages: ownMessagesOf(body), stream, ...(openrouter ? { reasoning: { enabled: !body?.fast } } : {}) }
-  const headers = { 'content-type': 'application/json', ...(provider.apiKey ? { authorization: `Bearer ${provider.apiKey}` } : {}), ...(openrouter ? { 'HTTP-Referer': 'https://github.com/chenziyaos/weft', 'X-Title': 'Weft' } : {}) }
+  const headers = { 'content-type': 'application/json', ...(provider.apiKey ? { authorization: `Bearer ${provider.apiKey}` } : {}), ...(openrouter ? { 'HTTP-Referer': 'https://github.com/zyaochen/weft', 'X-Title': 'Weft' } : {}) }
   const res = await fetch(`${provider.baseURL}/chat/completions`, { method: 'POST', headers, body: JSON.stringify(payload), signal: AbortSignal.timeout(10 * 60 * 1000) })
   if (!res.ok) {
     const text = await res.text().catch(() => '')

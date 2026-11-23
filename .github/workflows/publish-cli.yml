@@ -3,7 +3,7 @@
 # asset is the exact tarball npm serves.
 #
 # One-time setup on npmjs.com (package weft-canvas → Settings → Trusted
-# Publisher → GitHub Actions): owner chenziyaos, repository weft, workflow
+# Publisher → GitHub Actions): owner zyaochen, repository weft, workflow
 # filename publish-cli.yml, environment left empty. No npm token is stored
 # anywhere; until that is registered the npm step fails with 404.
 #
